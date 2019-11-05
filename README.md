@@ -24,7 +24,9 @@ So, I'm writing this with the assumptions that you have:
 ## GETTING STARTED
 
 * You can grab a copy of the default glcdfont.c from the directory `qmk_firmware/keyboards/crkbd/lib`
+
 **OR**
+
 * [Grab a copy of my glcdfontstarter.c from the github repo](https://github.com/RustyJonez/OLED-ART-tinkering/blob/master/glcdfontstarter)
 Just right-click "raw" and "save link as"
 
