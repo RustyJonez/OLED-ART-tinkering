@@ -23,19 +23,19 @@ So, I'm writing this with the assumptions that you have:
 
 ## GETTING STARTED
 
-⋅⋅* You can grab a copy of the default glcdfont.c from the directory `qmk_firmware/keyboards/crkbd/lib`
+* You can grab a copy of the default glcdfont.c from the directory `qmk_firmware/keyboards/crkbd/lib`
 **OR**
-⋅⋅* [Grab a copy of my glcdfontstarter.c from the github repo](https://github.com/RustyJonez/OLED-ART-tinkering/blob/master/glcdfontstarter)
+* [Grab a copy of my glcdfontstarter.c from the github repo](https://github.com/RustyJonez/OLED-ART-tinkering/blob/master/glcdfontstarter)
 Just right-click "raw" and "save link as"
 
 In my "starter" copy, I outlined the usable area to make it easy to see your "canvas size" while editing the file. The solid line border corresponds to the outermost pixel border on your OLED screen.
 
-⋅⋅* Open it in the helix font editor page (linked above)
-⋅⋅* Edit as desired, download, and save to your keymap directory (in my case `qmk_firmware/keyboards/crkbd/keymaps/rustyjonez`)
+* Open it in the helix font editor page (linked above)
+* Edit as desired, download, and save to your keymap directory (in my case `qmk_firmware/keyboards/crkbd/keymaps/rustyjonez`)
 
 
 
-⋅⋅* Add this to your config.h file:
+* Add this to your config.h file:
 `#define OLED_FONT_H "keyboards/crkbd/keymaps/YourUsername/YourFontFileName.c"`
 e.g. keyboards/crkbd/keymaps/rustyjonez/glcdfontstarter.c
 
@@ -45,7 +45,7 @@ You can rename your file to whatever you want, just make sure your path matches 
 
 
 
-⋅⋅* Finally, make sure you have the right stuff going on in your keymap.c - use the QMK logo documentation above
+* Finally, make sure you have the right stuff going on in your keymap.c - use the QMK logo documentation above
 
 ## KEYMAP
 
