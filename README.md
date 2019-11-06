@@ -15,11 +15,14 @@ Repo for my original pixel art and projects involving the CRKBD OLED Displays
 
 [Helix font editor - for making custom glcdfont.c files](https://helixfonteditor.netlify.com/)
 
+[QMK Newbs Guide](https://beta.docs.qmk.fm/newbs)
 
-So, I'm writing this with the assumptions that you have:
 
-1. A split keyboard with two OLEDs
+So, I'm writing this with the assumptions that you:
+
+1. Have a split keyboard with two OLEDs
 2. They have already been enabled in your firmware
+3. You know how to manually edit and compile your firmware (use Newbs guide above, if not)
 
 ## GETTING STARTED
 
