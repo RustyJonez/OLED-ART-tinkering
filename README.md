@@ -2,8 +2,20 @@
 Repo for my created pixel art, and projects involving the CRKBD OLED Displays
 
 --- 
+## New Guide incoming- quick overview:
+The older method (below this section) has limitations, such as not using the entire screenspace, and limiting you to 1 pixel art per keymap. 
+The new method uses OLED_WRITE_RAW, uses the entire screen, and allows for more than 1 piece of art in your keymap (amount dependant on firwmare size limitations)
+The new method I've involves:
 
-## OLED GUIDE
+* Setting a canvas size to 128x32 pixels on MSPaint, then sketching out whatever you want your art to be (will be rotated 90deg counterclockwise of how it ultimately displays)
+* Loading the image on [Image2cpp](https://javl.github.io/image2cpp/)
+* Set Draw Mode: "vertical" and generate output (depends on your OLED rotation in the keymap)
+* Grab the output and drop it in your keymap [\(sample code here\)](https://gist.github.com/RustyJonez/20deb5aac24f5071d373bcb2fc18bdfe)
+* Call your new function near the bottom of the keymap in the void oled_task_user section.
+
+This will be re-written in greater detail at some point, but should be enough to get you going. Play around with it, and you should be able to figure something out.
+
+## (Old) OLED GUIDE
 #### A guide for adding custom art to your keeb's OLED Screens.
 
 **Disclaimers: this is going to be very long-winded, and definitely won't be perfect. This is only a list of steps detailing what I did to get mine working.**
