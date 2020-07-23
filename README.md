@@ -5,7 +5,7 @@ Repo for my created pixel art, and projects involving the CRKBD OLED Displays
 ## New Guide incoming- quick overview:
 The older method (below this section) has limitations, such as not using the entire screenspace, and limiting you to 1 pixel art per keymap. 
 The new method uses OLED_WRITE_RAW, uses the entire screen, and allows for more than 1 piece of art in your keymap (amount dependant on firwmare size limitations)
-The new method I've involves:
+The newer method involves:
 
 * Setting a canvas size to 128x32 pixels on MSPaint, then sketching out whatever you want your art to be (will be rotated 90deg counterclockwise of how it ultimately displays)
 * Loading the image on [Image2cpp](https://javl.github.io/image2cpp/)
